@@ -25,8 +25,7 @@ public class BTVN_3 {
         System.out.print("Vui lòng nhập tọa độ y của điểm M: ");
         yDiemM = Float.parseFloat(sc.nextLine());
 
-        khoangCach = (float) Math.sqrt((xDiemM-xTamDuongTron)*(xDiemM-xTamDuongTron)
-                + (yDiemM-yTamDuongTron)*(yDiemM-yTamDuongTron));
+        khoangCach = (float) Math.sqrt((xDiemM-xTamDuongTron)*(xDiemM-xTamDuongTron) + (yDiemM-yTamDuongTron)*(yDiemM-yTamDuongTron));
 
         if(khoangCach == r) {
             System.out.println("Điểm M nằm trên đường tròn.");
